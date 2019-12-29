@@ -1,0 +1,17 @@
+npm init -y
+npm i tailwindcss
+.gitignore
+
+>src
+style.css
+copy tailwind base components utilities
+
+>dist
+index.html
+style.css
+
+
+run build command for css on html later
+package.json
+scripts:
+"build:css": "tailwind build src/style.css -o dist/style.css"
