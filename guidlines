@@ -15,3 +15,5 @@ run build command for css on html later
 package.json
 scripts:
 "build:css": "tailwind build src/style.css -o dist/style.css"
+
+include compiled style.css as the link on index.html
